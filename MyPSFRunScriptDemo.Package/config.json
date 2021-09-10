@@ -1,0 +1,18 @@
+{
+  "applications": [
+    {
+      "id": "App",
+      "executable": "MyPSFRunScriptDemo/MyPSFRunScriptDemo.exe",
+      "workingDirectory": "MyPSFRunScriptDemo/",
+      "stopOnScriptError": true,
+      "startScript": {
+        "scriptPath": "runelevated.ps1",
+        "scriptArguments": "C:\\temp\\elevated",
+        "runInVirtualEnvironment": false,
+        "showWindow": false,
+        "waitForScriptToFinish": true,
+        "runOnce": false
+      }
+    }
+  ]
+}
