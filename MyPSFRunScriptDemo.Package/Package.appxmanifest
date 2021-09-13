@@ -9,7 +9,7 @@
   <Identity
     Name="eb9805e6-843c-4f02-b9ef-0ad481da68a1"
     Publisher="CN=luisdem"
-    Version="1.0.6.0" />
+    Version="1.0.7.0" />
 
   <Properties>
     <DisplayName>MyPSFRunScriptDemo.Package</DisplayName>

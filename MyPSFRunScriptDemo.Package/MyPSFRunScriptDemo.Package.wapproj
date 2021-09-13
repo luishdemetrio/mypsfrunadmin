@@ -115,9 +115,6 @@
     <Content Include="Images\StoreLogo.png" />
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
     <None Include="MyPSFRunScriptDemo.Package_TemporaryKey.pfx" />
-    <Content Include="MyPSFRunScriptDemo\WpfElevatedApp.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="PsfLauncher32.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -134,5 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyPSFRunScriptDemo\MyPSFRunScriptDemo.csproj" />
+    <ProjectReference Include="..\WpfElevatedApp\WpfElevatedApp.csproj" />
   </ItemGroup>
 </Project>

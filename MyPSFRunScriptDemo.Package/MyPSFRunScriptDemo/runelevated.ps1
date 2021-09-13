@@ -7,7 +7,7 @@ Param([string]$elevatedPath)
     {
         New-Item -ItemType Directory -Path $elevatedPath
 
-        Copy-Item WpfElevatedApp.exe $elevatedPath
+        Copy-Item ..\WpfElevatedApp\WpfElevatedApp.exe $elevatedPath
 
     }
 
